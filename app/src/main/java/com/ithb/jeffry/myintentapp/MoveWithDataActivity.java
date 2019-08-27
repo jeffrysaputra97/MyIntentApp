@@ -20,7 +20,7 @@ public class MoveWithDataActivity extends AppCompatActivity {
         String name = getIntent().getStringExtra(EXTRA_NAME);
         int age = getIntent().getIntExtra(EXTRA_AGE, 0);
 
-        String text = "Name: " + name + ", Your Age: " + age;
+        String text = "Name: " + name + ",\nYour Age: " + age;
         tvDataReceived.setText(text);
     }
 }
